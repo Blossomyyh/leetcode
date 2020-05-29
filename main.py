@@ -39,3 +39,5 @@ class Solution:
         Jset = set(J)
         return sum(s in Jset for s in S)
 
+if __name__ == "__main__":
+    print("hello word")
