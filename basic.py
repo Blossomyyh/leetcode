@@ -62,3 +62,59 @@ def multiple(*args):
     return res
 # try it out
 print(multiple(1,2,3))
+
+
+"""
+conditional structures
+"""
+# conditionals are handled by if statement
+# 2 variables and they are 10 and 100 to start with, you can see sure enough
+x,y = 10, 100
+# should be referenced after assignment, go ahead and fix this
+
+# conditional flow -- if elif else
+# use if-elif as a substitude for writing a switch case block.
+if x < y:
+    print("x<y")
+elif x == y:
+    print("x=y")
+else:
+    print("x>y")
+
+
+# conditional statement -- a common else if construct all in one line
+# concise way of writing the comparison logic instead of writing a more verbose if else block
+
+st = "x>y" if x > y else "x<=y"
+
+
+"""
+loops
+"""
+# _ underscore --naming
+# a stubbed out function named "main"
+# a while loop execute the following lines while a particular condition evaluates true with x increments by 1
+x = 0
+while (x<5):
+    print(x)
+    x += 1
+
+# for loop -- iterators
+# % modulo -- mo
+# 10 is not in the range, it prints out 5 through 9
+# for loops operates over set of things, not just numbers
+# for loop will iterating/looping over each element in the list, and in each iteration, x will be set to the current item that it's looking at that time
+for x in range(5,10):
+    if x==7: break
+    # is to break the loop if the condition is met
+    if (x % 2 ==0): continue
+    # take x modulo / divided by 2 and if the value left over is zero, then continue
+    # continue basically means skip the rest of the execution of this loop, just go back to the top of the loop and start with the next value
+    print(x)
+# And you can see what is happening is the break statement breaks in and causes the loop to terminate. S0, it never gets to 7 or more
+
+day = ["Mon", "Tues", "Thurs"]
+# loop with index
+# enumerate would iterate over this collection like loop normally would, but in addition to return the value, it also returns the index of the item 
+for i, d in enumerate(day):
+    print(i, d )
