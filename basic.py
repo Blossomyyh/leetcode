@@ -118,3 +118,33 @@ day = ["Mon", "Tues", "Thurs"]
 # enumerate would iterate over this collection like loop normally would, but in addition to return the value, it also returns the index of the item 
 for i, d in enumerate(day):
     print(i, d )
+
+
+
+"""
+classes
+"""
+# class is a good way to encapsulating functionality that can be kept together and passed around as a complete module for use in other objects.
+# I will explain it in a moment
+# class is based on a superclass that I am inherited from
+# functions == methods (in object-oriented projects)
+# first argument of any of the methods of the class, is the self argument, which refers to the particular instance of the object itself that is been operated on.
+
+class firstc():
+    def init(self):
+        print("first class")
+
+# inherit class
+class firstb(firstc):
+    def init2(self):
+        # first thing i will going to do is call the inherited methods on the superclass
+        firstc.init(self) # invoking init class
+        print("first class")
+    def method(self, str):
+        print(str)
+
+# instantiate 实例化 the object instance of the class
+def main():
+    c = firstc()
+    # call methods -- 
+    c.init() # no need to care about self argument
