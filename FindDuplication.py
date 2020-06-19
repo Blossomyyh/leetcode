@@ -48,6 +48,7 @@ def findDuplicates(nums: List[int]) -> List[int]:
 set
 """
 
+
 def findDuplicates(self, nums: List[int]) -> List[int]:
     if len(nums) < 1:
         return
@@ -64,8 +65,6 @@ def findDuplicates(self, nums: List[int]) -> List[int]:
     return list(res)
 
 
-
-
 def findSDuplicates(nums: List[int]) -> List[int]:
     res = set()
     for i in range(len(nums)):
@@ -78,10 +77,11 @@ def findSDuplicates(nums: List[int]) -> List[int]:
 
 findDuplicates([1, 2, 3, 3, 4, 4, 5, 5, 3])
 
-
 """
 Mark Visited Elements in the Input Array itself
 """
+
+
 def findDuplicates(self, nums: List[int]) -> List[int]:
     if len(nums) < 1:
         return
@@ -96,4 +96,3 @@ def findDuplicates(self, nums: List[int]) -> List[int]:
             nums[abs(i) - 1] *= -1
 
     return list(res)
-

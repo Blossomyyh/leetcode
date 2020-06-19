@@ -32,7 +32,6 @@ Newton's Method
 
 # Return x * x == num
 
-
 """
 
 def isNewtonPerfectSquare(self, num: int) -> bool:

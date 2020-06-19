@@ -40,7 +40,7 @@ print(func1())
 print(func1) #~ bad
 
 
-# arguments of function --comment out
+# arguments of function --comment out( #   the hash mark)
 # do not have to call the argument in particular order
 def power( a, x=1):
     res = 2
