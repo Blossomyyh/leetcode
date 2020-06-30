@@ -3,8 +3,41 @@ class ListNode:
         self.val = x
         self.next = None
 
+"""sample code from techpro"""
+
+class Solution(object):
+    def _length(self, n):
+        len = 0
+        curr = n
+        while curr:
+            curr = curr.next
+            len += 1
+        return len
+
+    def intersection(self, a: ListNode, b: ListNode):
+        lenA = self._length(a)
+        lenB = self._length(b)
+        currA, currB = a, b
+
+        if lenA > lenB:
+            # then we advance curr A
+            for _ in range(lenA - lenB):
+                currA = currA.next
+        else:
+            for _ in range(lenB - lenA):
+                currB = currB.next
+
+        # Now a and b are pretty much at the same distance to the end of list
+        # we advance both of them in sync until we figure out where are they meet
+        while currA != currB:
+            currA, currB = currA.next, currB.next
+        # return either current A or B
+        return currA
+
+
 
 """solution 1: use set to store nodes in A -- time limits exceed"""
+
 
 def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
     # hashset: traversal A and store node val in set and check whether node in B exists in the set as well
@@ -23,6 +56,7 @@ def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
         headB = headB.next
     return None
 
+
 """ 
 # Time complexity : O(m+n)
 
@@ -30,7 +64,17 @@ def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
 """
 
 
-def getTwoPIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
+# Run both out to the end/tail
+#         If the tails aren't identical they didn't intersect, RETURN NULL
+#         You know:
+#         - They intersect
+#         - ListA's length
+#         - ListB's length
+#         lenA == lenB exactly the same, walk fwd from heads to find intersect
+#         lenA  > lenB skip ListA (lenA-lenB) nodes ahead, walk fwd to find intersect
+#         lanB  > lenA skip ListB (lenB-lenA) nodes ahead, walk fwd to find intersect
+
+def getTwoPIntersectionNode(headA: ListNode, headB: ListNode) -> ListNode:
     # two pointer
     if headA == None or headB == None:
         return None
@@ -44,6 +88,7 @@ def getTwoPIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
         headB = headB.next
 
     if la > lb:
+        # listA is longer, skip it ahead
         dif = la - lb
         while dif != 0:
             a = a.next
@@ -60,3 +105,22 @@ def getTwoPIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
         b = b.next
 
     return None
+
+
+"""
+most tricky one:
+let a, b go through both listA and listB
+the total length of which they go through is the same : lenA+ lenB
+if there is an intersection for A and B, then pA and pB will meet at the intersection for sure
+"""
+
+
+def simpleSolution(headA: ListNode, headB: ListNode) -> ListNode:
+    if not headA or not headB:
+        return None
+
+    a, b = headA, headB
+
+    while a != b:
+        a = headB if not a else a.next
+        b = headA if not b else b.next
