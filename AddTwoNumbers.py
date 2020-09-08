@@ -4,6 +4,7 @@ class ListNode:
         self.val = val
         self.next = next
 class Solution:
+    """iteration"""
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         # digits-by-digits sum starting from the head of list, which contains the least-significant digit.
         #         Update carry = sum / 10carry=sum/10.
@@ -50,3 +51,25 @@ class Solution:
 # Check if carry = 1carry=1, if so append a new node with digit 11 to the returning list.
 
 # Return dummy head's next node.
+
+    """recursively"""
+    def addHelper(self, l1: ListNode, l2: ListNode, carry):
+        carry, val = divmod(l1.val+l2.val + carry)
+        """car = val//10   &  v = val % 10"""
+        ret = ListNode(val)
+
+        if l1.next != None or l2.next != None:
+            if not l1.next:
+                l1.next = ListNode(0)
+            if not l2.next:
+                l2.next = ListNode(0)
+            ret = self.addHelper(l1.next, l2.next, carry)
+        elif carry:
+            ret.next = ListNode(carry)
+        return ret
+
+
+    def add2numbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+        if not l1 : return l2
+        if not l2: return l1
+        return self.addHelper(l1, l2, 0)

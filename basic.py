@@ -2,7 +2,48 @@
 variable and global
 """
 
-f =0 
+"""tuples immutable"""
+# code to test that tuples are immutable
+
+tuple1 = (0, 1, 2, 3)
+# tuple1[0] = 4
+print(tuple1)
+# Traceback (most recent call last):
+#   File "e0eaddff843a8695575daec34506f126.py", line 3, in
+#     tuple1[0]=4
+# TypeError: 'tuple' object does not support item assignment
+
+# code to test slicing
+
+tuple1 = (0, 1, 2, 3)
+print(tuple1[1:])
+print(tuple1[::-1])
+print(tuple1[2:4])
+# (1, 2, 3)
+# (3, 2, 1, 0)
+# (2, 3)
+# Code for converting a list and a string into a tuple
+
+list1 = [0, 1, 2]
+print(tuple(list1))
+
+# python code for creating tuples in a loop
+
+tup = ('geek',)
+n = 5  # Number of time loop runs
+for i in range(int(n)):
+    tup = (tup,)
+    print(tup)
+# (('geek',),)
+# ((('geek',),),)
+# (((('geek',),),),)
+
+# get one element
+i = 5 + (1,2)[0]
+print("!!!!!!!",i)
+
+
+f =0
 
 def localglobal():
     global f
@@ -17,6 +58,33 @@ del f
 # print(f)
 # should have results like -- NameError: name 'f' is not defined
 # essentially, it means you can undefine a variable in real time
+
+
+
+
+"""
+zip
+map function
+"""
+
+# initializing lists
+name = ["Manjeet", "Nikhil", "Shambhavi", "Astha"]
+roll_no = [4, 1, 3, 2]
+marks = [40, 50, 60, 70]
+
+# using zip() to map values
+mapped = zip(name, roll_no, marks)
+
+# converting values to print as set
+mapped = set(mapped)
+
+# printing resultant values
+print("The zipped result is : ", end="")
+print(mapped)
+
+
+
+
 
 
 """
