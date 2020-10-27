@@ -2,56 +2,170 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48e6a179-b8c0-4c6b-b9c9-0f611b429612" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AbsolutePath.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AddDigits.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AddTwoNumbers2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AmazonNewgrad.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsteroidCollision.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Calculator.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CountNumberOfTeams.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CourseSchedule.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DailyTemperature.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EditDistance.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FindAllDuplicationsInAArray.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FindFirstandLastPositionElement.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FindNon-duplicateNumber.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FindPythagoreanTriplets.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GroupAnagrams.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaximumInStack.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MostVisitedSectorCircularTrack.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NonDecreasingArray.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NumPairsDivisibleBy60.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NumberofIslands.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PalindromeSubstrings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PerfectNumber.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Permutation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductofArrayExceptSelf.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PushDominos.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/QueueReconstructionByHeight.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/QueueUsingStack.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RansomNumber.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReverseWords.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Robinhood.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RotateImage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SlidingWindow.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SortingListWith3UniqueNumbers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StackUsingQueue.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubArraysDivByK.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TopKFrequentElements.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Trie.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TwoSum.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VMWare.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ValidBinarySearchTree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WordLadder.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WordSearch.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lastSubString.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/peekFind.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AttendMeetings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BinarySearch.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BinaryTreeTraversal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bombgame.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BrowserHistory.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Candy.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Celebrity.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ClosestPairofPoints.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CodeSignal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CoinBase.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CombinationSum.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DecodeString.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoorDash/01Matrix.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoorDash/CountPickupDelivery.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoorDash/DependencySolver.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoorDash/Doordash.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoorDash/IntervalListIntersections.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoorDash/KCombinationMaxSum.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoorDash/KMoveDistinct.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoorDash/LandPerimeter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoorDash/MaxIsland.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoorDash/MeetingScheduler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoorDash/MergeKSortedList.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoorDash/Parenthesesvalid.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoorDash/Stock.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoorDash/WordBreak.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoorDash/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoorDash/sort.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FindKLargestElementList.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GenerateParentheses.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GridLand.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/InsertIntervals.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KClosestPointstoOrigin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LargestRange.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeastBricks.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LetterCombinationPhoneNumber.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LongestConsecutiveSubsequence.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LongestRepeatedSubstring.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LongestSubstringRepeatedK.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LongestSubstringWithoutRepeated.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaxPerformanceTeam.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Maze.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MinimumCostTickets.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MinimumCostTreeFromLeaf.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MinimumKnightMoves.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NextGreaterEle.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOD/DesignTwitter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOD/EncodeDecode.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOD/FileSystem.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOD/FileSystemInMemory.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOD/GetRandom.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOD/HitCount.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOD/MyCalendar.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOD/RandomPickWeight.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOD/TicTacToe.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOD/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Oracle/CoinChange.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Oracle/ConstructMaxBinaryTree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Oracle/DiameterBinaryTree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Oracle/FindKPair.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Oracle/FlatternNestedIterator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Oracle/FrogJump.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Oracle/HashMapDesign.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Oracle/IntegertoRoman.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Oracle/KSmallestSortedMatrix.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Oracle/MergeSortedArray.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Oracle/MissingElement.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Oracle/PathSumTree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Oracle/PrintInOrder.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Oracle/RemoveDupinList.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Oracle/SearchRotatedArray.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Oracle/ShortestPalindrome.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Oracle/SpiralMatrix.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Oracle/SymmetricTree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Oracle/TrappingWater.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Oracle/TraversalTree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Oracle/TreeFindNode.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Oracle/TreeLevelTraversal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Oracle/UniquePath.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Oracle/WallsGates.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Oracle/WebCrawlThread.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/Backtracking.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/Badge.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/BlackList.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/CalculatorVar.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/CandyCrush.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/CloestPointstoOrigin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/CloneGraph.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/Combination.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/CourseSchedule3HeapQ.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/Diagonal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/Domain.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/EmployeeFreeTime.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/EnglishWordArray.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/FriendCircles.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/GenerateParentheses.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/GraphBipartite.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/LongestCommonHistory.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/LongestIncreasingSubsequence.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/LongestPalindrome.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/LongestWordinDictionary.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/MeetingRoom.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/MergeIntervals.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/ParentChild.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/PartitionKEqualSumSubsets.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/PinterestOA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/Read4.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/Rectangle.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/RussianDollEnvelopes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/SameCourseStudentPair.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/StateJob.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/Subsets.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/Sum3&amp;4.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/Topological.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/TopologicalMid.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/Treasure.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/UniquePath.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/WordLadder.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/WordLadder2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pinterest/newtype.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RemoveInvalidParentheses.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RemoveKLastFromLinkedList.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RepeatedSubStringPattern.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RestoreNumberofCycle.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ShuffleArray.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SnowFlake.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StonesRemoveMost.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StringOperation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Subsequence.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThrottlingGateway.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TwoSumStructure.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VMware/AddTwoo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VMware/AutomationTest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VMware/BoundaryBinaryTree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VMware/DesignAutoCompleteSystem.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VMware/FloodFill.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VMware/InsertList.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VMware/LCA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VMware/LFU.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VMware/LRU.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VMware/MultithreadFizzBuzz.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VMware/Pow.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VMware/RemoveNnodeFromListEnd.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VMware/RemoveOuterParen.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VMware/ReverseLinkList.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VMware/Search2DMatrix.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VMware/Singleton.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VMware/SortStringg.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VMware/Sqrt.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VMware/TaskScheduler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VMware/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ValidParentheses.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WordLadder.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/CourseSchedule.py" afterPath="$PROJECT_DIR$/Pinterest/CourseSchedule.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AddTwoNumbers.py" afterPath="$PROJECT_DIR$/AddTwoNumbers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntersectionofTwoLinkedLists.py" afterPath="$PROJECT_DIR$/IntersectionofTwoLinkedLists.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MergekSortedLists.py" afterPath="$PROJECT_DIR$/MergekSortedLists.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic.py" afterPath="$PROJECT_DIR$/basic.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FindAllDuplicationsInAArray.py" afterPath="$PROJECT_DIR$/FindAllDuplicationsInAArray.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JumpGame.py" afterPath="$PROJECT_DIR$/JumpGame.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MaximumInStack.py" afterPath="$PROJECT_DIR$/MaximumInStack.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MonotoneIncreasingDigits.py" afterPath="$PROJECT_DIR$/MonotoneIncreasingDigits.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PalindromeSubstrings.py" afterPath="$PROJECT_DIR$/PalindromeSubstrings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Robinhood.py" afterPath="$PROJECT_DIR$/Robinhood.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SlidingWindow.py" afterPath="$PROJECT_DIR$/SlidingWindow.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TopKFrequentElements.py" afterPath="$PROJECT_DIR$/TopKFrequentElements.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WordSearch.py" afterPath="$PROJECT_DIR$/WordSearch.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,77 +175,146 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/leetcode$DecodeString.coverage" NAME="DecodeString Coverage Results" MODIFIED="1601989364009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$Sum3_4.coverage" NAME="Sum3&amp;4 Coverage Results" MODIFIED="1601254905190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$LargestRange.coverage" NAME="LargestRange Coverage Results" MODIFIED="1602979481766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$MinimumCostTreeFromLeaf.coverage" NAME="MinimumCostTreeFromLeaf Coverage Results" MODIFIED="1602964348744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$CodeSignal.coverage" NAME="CodeSignal Coverage Results" MODIFIED="1601319515054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$Read4.coverage" NAME="Read4 Coverage Results" MODIFIED="1602216916240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$Sqrt.coverage" NAME="Sqrt Coverage Results" MODIFIED="1603381723112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$WordLadder.coverage" NAME="WordLadder Coverage Results" MODIFIED="1600645896309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$RussianDollEnvelopes.coverage" NAME="RussianDollEnvelopes Coverage Results" MODIFIED="1600905058273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$Stock.coverage" NAME="Stock Coverage Results" MODIFIED="1602606542157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$EmployeeFreeTime.coverage" NAME="EmployeeFreeTime Coverage Results" MODIFIED="1601129626512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$KMoveDistinct.coverage" NAME="KMoveDistinct Coverage Results" MODIFIED="1602774824864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$NextGreaterEle.coverage" NAME="NextGreaterEle Coverage Results" MODIFIED="1602979496187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$CourseSchedule.coverage" NAME="CourseSchedule Coverage Results" MODIFIED="1598932098645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$StateJob.coverage" NAME="StateJob Coverage Results" MODIFIED="1601435506379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$QueueReconstructionByHeight.coverage" NAME="QueueReconstructionByHeight Coverage Results" MODIFIED="1597119824812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$MonotoneIncreasingDigits.coverage" NAME="MonotoneIncreasingDigits Coverage Results" MODIFIED="1600091517977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$FindDuplication.coverage" NAME="FindDuplication Coverage Results" MODIFIED="1591717098245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$Combination.coverage" NAME="Combination Coverage Results" MODIFIED="1600909860343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$peekFind.coverage" NAME="peekFind Coverage Results" MODIFIED="1599536461947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$AddTwoNumbers2.coverage" NAME="AddTwoNumbers2 Coverage Results" MODIFIED="1595599133957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$FindKLargestElementList.coverage" NAME="FindKLargestElementList Coverage Results" MODIFIED="1599920784638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$GridLand.coverage" NAME="GridLand Coverage Results" MODIFIED="1602819348294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$GraphBipartite.coverage" NAME="GraphBipartite Coverage Results" MODIFIED="1601855584438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$basic.coverage" NAME="basic Coverage Results" MODIFIED="1597589794289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$Subsequence.coverage" NAME="Subsequence Coverage Results" MODIFIED="1600183423060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$Subsets.coverage" NAME="Subsets Coverage Results" MODIFIED="1601230525809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$Calculator.coverage" NAME="Calculator Coverage Results" MODIFIED="1599019186756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$LongestWordinDictionary.coverage" NAME="LongestWordinDictionary Coverage Results" MODIFIED="1601146915316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$NonDecreasingArray.coverage" NAME="NonDecreasingArray Coverage Results" MODIFIED="1599065395438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$EnglishWordArray.coverage" NAME="EnglishWordArray Coverage Results" MODIFIED="1601319505941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$Diagonal.coverage" NAME="Diagonal Coverage Results" MODIFIED="1600545917424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$SameCourseStudentPair.coverage" NAME="SameCourseStudentPair Coverage Results" MODIFIED="1600747199670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$FindNon_duplicateNumber.coverage" NAME="FindNon-duplicateNumber Coverage Results" MODIFIED="1597292282498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$AmazonNewgrad.coverage" NAME="AmazonNewgrad Coverage Results" MODIFIED="1598136239491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$NumPairsDivisibleBy60.coverage" NAME="NumPairsDivisibleBy60 Coverage Results" MODIFIED="1599250630429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$RepeatedSubStringPattern.coverage" NAME="RepeatedSubStringPattern Coverage Results" MODIFIED="1600043704196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$MergekSortedLists.coverage" NAME="MergekSortedLists Coverage Results" MODIFIED="1594502598992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$RemoveKLastFromLinkedList.coverage" NAME="RemoveKLastFromLinkedList Coverage Results" MODIFIED="1599619057185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$Unittests_in_BoundaryBinaryTree_py.coverage" NAME="Unittests in BoundaryBinaryTree.py Coverage Results" MODIFIED="1603465210549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/VMware" />
+    <SUITE FILE_PATH="coverage/leetcode$LinkedListCycle.coverage" NAME="LinkedListCycle Coverage Results" MODIFIED="1592922471299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$LRU.coverage" NAME="LRU Coverage Results" MODIFIED="1601911107779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$LongestRepeatedSubstring.coverage" NAME="LongestRepeatedSubstring Coverage Results" MODIFIED="1602447874341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$Palindrome.coverage" NAME="Palindrome Coverage Results" MODIFIED="1593961533454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$ValidParentheses.coverage" NAME="ValidParentheses Coverage Results" MODIFIED="1599659536464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$Treasure.coverage" NAME="Treasure Coverage Results" MODIFIED="1600747195598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$ValidBinarySearchTree.coverage" NAME="ValidBinarySearchTree Coverage Results" MODIFIED="1595475617379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$SortingListWith3UniqueNumbers.coverage" NAME="SortingListWith3UniqueNumbers Coverage Results" MODIFIED="1597117488177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$VMWare.coverage" NAME="VMWare Coverage Results" MODIFIED="1598495234592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$RestoreNumberofCycle.coverage" NAME="RestoreNumberofCycle Coverage Results" MODIFIED="1600917938193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$Rectangle.coverage" NAME="Rectangle Coverage Results" MODIFIED="1600570123916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$BlackList.coverage" NAME="BlackList Coverage Results" MODIFIED="1601264630683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$FindPythagoreanTriplets.coverage" NAME="FindPythagoreanTriplets Coverage Results" MODIFIED="1598932127166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$TopKFrequentElements.coverage" NAME="TopKFrequentElements Coverage Results" MODIFIED="1599576667935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$ProductofArrayExceptSelf.coverage" NAME="ProductofArrayExceptSelf Coverage Results" MODIFIED="1599021904095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$ParentChild.coverage" NAME="ParentChild Coverage Results" MODIFIED="1600480710099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$OddEvenLinkedList.coverage" NAME="OddEvenLinkedList Coverage Results" MODIFIED="1593988521248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$StackUsingQueue.coverage" NAME="StackUsingQueue Coverage Results" MODIFIED="1597291556263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$MostVisitedSectorCircularTrack.coverage" NAME="MostVisitedSectorCircularTrack Coverage Results" MODIFIED="1598762807024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$Calculator.coverage" NAME="Calculator Coverage Results" MODIFIED="1599019186756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$AddDigits.coverage" NAME="AddDigits Coverage Results" MODIFIED="1598153301804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$WordLadder2.coverage" NAME="WordLadder2 Coverage Results" MODIFIED="1600720151992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$DataStructure.coverage" NAME="DataStructure Coverage Results" MODIFIED="1591718176949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$WordSearch.coverage" NAME="WordSearch Coverage Results" MODIFIED="1599504186609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$Robinhood.coverage" NAME="Robinhood Coverage Results" MODIFIED="1599601925041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$NonDecreasingArray.coverage" NAME="NonDecreasingArray Coverage Results" MODIFIED="1599065395438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$NumberofIslands.coverage" NAME="NumberofIslands Coverage Results" MODIFIED="1598128552147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$Permutation.coverage" NAME="Permutation Coverage Results" MODIFIED="1597115506422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$PrisonCellsAfterNDays.coverage" NAME="PrisonCellsAfterNDays Coverage Results" MODIFIED="1593914665271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$AbsolutePath.coverage" NAME="AbsolutePath Coverage Results" MODIFIED="1597292439035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$ReverseLinkedList.coverage" NAME="ReverseLinkedList Coverage Results" MODIFIED="1592770148065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$PinterestOA.coverage" NAME="PinterestOA Coverage Results" MODIFIED="1600137870739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$CandyCrush.coverage" NAME="CandyCrush Coverage Results" MODIFIED="1601864160345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$CountPickupDelivery.coverage" NAME="CountPickupDelivery Coverage Results" MODIFIED="1602606293535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$sort.coverage" NAME="sort Coverage Results" MODIFIED="1602619572081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$TreeFindNode.coverage" NAME="TreeFindNode Coverage Results" MODIFIED="1603129636362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$GenerateParentheses.coverage" NAME="GenerateParentheses Coverage Results" MODIFIED="1601512764202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$CalculatorVar.coverage" NAME="CalculatorVar Coverage Results" MODIFIED="1601253246819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$MinimumCostTickets.coverage" NAME="MinimumCostTickets Coverage Results" MODIFIED="1602467498542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$MergeSortedArray.coverage" NAME="MergeSortedArray Coverage Results" MODIFIED="1602075653095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$PushDominos.coverage" NAME="PushDominos Coverage Results" MODIFIED="1599018950805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$FindNon_duplicateNumber.coverage" NAME="FindNon-duplicateNumber Coverage Results" MODIFIED="1597292282498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$CourseSchedule.coverage" NAME="CourseSchedule Coverage Results" MODIFIED="1598932098645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$PrisonCellsAfterNDay.coverage" NAME="PrisonCellsAfterNDay Coverage Results" MODIFIED="1594135598868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$SubArraysDivByK.coverage" NAME="SubArraysDivByK Coverage Results" MODIFIED="1598322242546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$AmazonNewgrad.coverage" NAME="AmazonNewgrad Coverage Results" MODIFIED="1598136239491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$NumPairsDivisibleBy60.coverage" NAME="NumPairsDivisibleBy60 Coverage Results" MODIFIED="1599250630429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$MergekSortedLists.coverage" NAME="MergekSortedLists Coverage Results" MODIFIED="1594502598992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$QueueReconstructionByHeight.coverage" NAME="QueueReconstructionByHeight Coverage Results" MODIFIED="1597119824812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$LinkedListCycle.coverage" NAME="LinkedListCycle Coverage Results" MODIFIED="1592922471299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$LongestIncreasingSubsequence.coverage" NAME="LongestIncreasingSubsequence Coverage Results" MODIFIED="1600874222498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$FindFirstandLastPositionElement.coverage" NAME="FindFirstandLastPositionElement Coverage Results" MODIFIED="1595729157281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$MonotoneIncreasingDigits.coverage" NAME="MonotoneIncreasingDigits Coverage Results" MODIFIED="1592403036052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$JumpGame.coverage" NAME="JumpGame Coverage Results" MODIFIED="1591908764695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$Domain.coverage" NAME="Domain Coverage Results" MODIFIED="1600183430885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$SlidingWindow.coverage" NAME="SlidingWindow Coverage Results" MODIFIED="1602776423730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$Badge.coverage" NAME="Badge Coverage Results" MODIFIED="1601845995695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$RotateImage.coverage" NAME="RotateImage Coverage Results" MODIFIED="1596473452106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$FindDuplication.coverage" NAME="FindDuplication Coverage Results" MODIFIED="1591717098245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$Palindrome.coverage" NAME="Palindrome Coverage Results" MODIFIED="1593961533454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$LFU.coverage" NAME="LFU Coverage Results" MODIFIED="1602082466230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$CountNumberOfTeams.coverage" NAME="CountNumberOfTeams Coverage Results" MODIFIED="1598762274625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$ValidBinarySearchTree.coverage" NAME="ValidBinarySearchTree Coverage Results" MODIFIED="1595475617379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$FindAllDuplicationsInAArray.coverage" NAME="FindAllDuplicationsInAArray Coverage Results" MODIFIED="1596772300209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$SortingListWith3UniqueNumbers.coverage" NAME="SortingListWith3UniqueNumbers Coverage Results" MODIFIED="1597117488177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$peekFind.coverage" NAME="peekFind Coverage Results" MODIFIED="1599536461947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$QueueUsingStack.coverage" NAME="QueueUsingStack Coverage Results" MODIFIED="1597119821039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$RansomNumber.coverage" NAME="RansomNumber Coverage Results" MODIFIED="1595518596589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$VMWare.coverage" NAME="VMWare Coverage Results" MODIFIED="1598495234592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$AddTwoNumbers2.coverage" NAME="AddTwoNumbers2 Coverage Results" MODIFIED="1595599133957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$DailyTemperature.coverage" NAME="DailyTemperature Coverage Results" MODIFIED="1595340899627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$CombinationSum.coverage" NAME="CombinationSum Coverage Results" MODIFIED="1602468426860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$TopKFrequentElements.coverage" NAME="TopKFrequentElements Coverage Results" MODIFIED="1599747506780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$ProductofArrayExceptSelf.coverage" NAME="ProductofArrayExceptSelf Coverage Results" MODIFIED="1599021904095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$WordSearch.coverage" NAME="WordSearch Coverage Results" MODIFIED="1599504186609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$MinimumKnightMoves.coverage" NAME="MinimumKnightMoves Coverage Results" MODIFIED="1601953278638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$Robinhood.coverage" NAME="Robinhood Coverage Results" MODIFIED="1599671304143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$StringOperation.coverage" NAME="StringOperation Coverage Results" MODIFIED="1599927168309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$NumberofIslands.coverage" NAME="NumberofIslands Coverage Results" MODIFIED="1598128552147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$Doordash.coverage" NAME="Doordash Coverage Results" MODIFIED="1601586177167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$FriendCircles.coverage" NAME="FriendCircles Coverage Results" MODIFIED="1600915631911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$Backtracking.coverage" NAME="Backtracking Coverage Results" MODIFIED="1601219615868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$Permutation.coverage" NAME="Permutation Coverage Results" MODIFIED="1597115506422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$LongestCommonHistory.coverage" NAME="LongestCommonHistory Coverage Results" MODIFIED="1600225565844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$PrisonCellsAfterNDays.coverage" NAME="PrisonCellsAfterNDays Coverage Results" MODIFIED="1593914665271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$LongestSubstringRepeatedK.coverage" NAME="LongestSubstringRepeatedK Coverage Results" MODIFIED="1602529425540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$AbsolutePath.coverage" NAME="AbsolutePath Coverage Results" MODIFIED="1597292439035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$ReverseLinkedList.coverage" NAME="ReverseLinkedList Coverage Results" MODIFIED="1592770148065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$TrappingWater.coverage" NAME="TrappingWater Coverage Results" MODIFIED="1603198966491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$LongestPalindrome.coverage" NAME="LongestPalindrome Coverage Results" MODIFIED="1601953274650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$SubArraysDivByK.coverage" NAME="SubArraysDivByK Coverage Results" MODIFIED="1598322242546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$CloneGraph.coverage" NAME="CloneGraph Coverage Results" MODIFIED="1601858440686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$LetterCombinationPhoneNumber.coverage" NAME="LetterCombinationPhoneNumber Coverage Results" MODIFIED="1600043836881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$JumpGame.coverage" NAME="JumpGame Coverage Results" MODIFIED="1591908764695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$MeetingRoom.coverage" NAME="MeetingRoom Coverage Results" MODIFIED="1602384525285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$FindAllDuplicationsInAArray.coverage" NAME="FindAllDuplicationsInAArray Coverage Results" MODIFIED="1596772300209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$TopologicalMid.coverage" NAME="TopologicalMid Coverage Results" MODIFIED="1600531853586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$Singleton.coverage" NAME="Singleton Coverage Results" MODIFIED="1603428190998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$CloestPointstoOrigin.coverage" NAME="CloestPointstoOrigin Coverage Results" MODIFIED="1602127627463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="leetcode" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7213262">
+    <splitter split-orientation="horizontal" split-proportion="0.36499676">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="WordSearch.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/WordSearch.py">
+          <file leaf-file-name="GetRandom.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/OOD/GetRandom.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="355">
-                  <caret line="157" column="28" lean-forward="true" selection-start-line="157" selection-start-column="28" selection-end-line="157" selection-end-column="28" />
+                <state relative-caret-position="0">
+                  <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="PalindromeSubstrings.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/PalindromeSubstrings.py">
+          <file leaf-file-name="MyCalendar.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/OOD/MyCalendar.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+                <state relative-caret-position="2565">
+                  <caret line="171" column="0" lean-forward="false" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="RemoveKDigits.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/RemoveKDigits.py">
+          <file leaf-file-name="RandomPickWeight.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/OOD/RandomPickWeight.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="0">
                   <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -140,74 +323,64 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="RemoveDuplicatesSortedList.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/RemoveDuplicatesSortedList.py">
+          <file leaf-file-name="LCA.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/VMware/LCA.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+                <state relative-caret-position="345">
+                  <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CountNumberOfTeams.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/CountNumberOfTeams.py">
+          <file leaf-file-name="Singleton.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/VMware/Singleton.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-817">
-                  <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+                <state relative-caret-position="285">
+                  <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="12" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="RotateImage.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/RotateImage.py">
+          <file leaf-file-name="Sqrt.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/VMware/Sqrt.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="413">
-                  <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+                <state relative-caret-position="270">
+                  <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Robinhood.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Robinhood.py">
+          <file leaf-file-name="BinarySearch.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/BinarySearch.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="773">
-                  <caret line="521" column="0" lean-forward="true" selection-start-line="521" selection-start-column="0" selection-end-line="521" selection-end-column="0" />
+                <state relative-caret-position="435">
+                  <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FileSystem.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/OOD/FileSystem.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="570">
+                  <caret line="38" column="36" lean-forward="false" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="DesignTwitter.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/OOD/DesignTwitter.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding>
-                    <element signature="e#0#31#0" expanded="true" />
+                    <element signature="e#0#35#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="AbsolutePath.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/AbsolutePath.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="peekFind.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/peekFind.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="410">
-                  <caret line="52" column="35" lean-forward="true" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TopKFrequentElements.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/TopKFrequentElements.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1695">
-                  <caret line="116" column="19" lean-forward="true" selection-start-line="135" selection-start-column="2" selection-end-line="143" selection-end-column="13" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -216,11 +389,101 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="FindAllDuplicationsInAArray.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/FindAllDuplicationsInAArray.py">
+          <file leaf-file-name="DesignAutoCompleteSystem.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/VMware/DesignAutoCompleteSystem.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+                <state relative-caret-position="750">
+                  <caret line="54" column="53" lean-forward="false" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AddTwoo.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/VMware/AddTwoo.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FileSystemInMemory.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/OOD/FileSystemInMemory.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="KSmallestSortedMatrix.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Oracle/KSmallestSortedMatrix.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TopKFrequentElements.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/TopKFrequentElements.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="930">
+                  <caret line="241" column="30" lean-forward="false" selection-start-line="241" selection-start-column="30" selection-end-line="241" selection-end-column="30" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SortStringg.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/VMware/SortStringg.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AutomationTest.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/VMware/AutomationTest.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="510">
+                  <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="InsertList.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/VMware/InsertList.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="630">
+                  <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ReverseLinkList.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/VMware/ReverseLinkList.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="600">
+                  <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Search2DMatrix.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/VMware/Search2DMatrix.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="570">
+                  <caret line="38" column="6" lean-forward="false" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
@@ -246,6 +509,20 @@
       <find>black</find>
       <find>split</find>
       <find>reversed</find>
+      <find>tuple</find>
+      <find>interval</find>
+      <find>friend</find>
+      <find>[[</find>
+      <find>dfs</find>
+      <find>return [[</find>
+      <find>merge</find>
+      <find>Order</find>
+      <find>import re</find>
+      <find>del</find>
+      <find>minKnightMoves</find>
+      <find>bisect</find>
+      <find>result</find>
+      <find>pattern</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -254,57 +531,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ReorderList.py" />
-        <option value="$PROJECT_DIR$/CopyListwithRandomPointer.py" />
-        <option value="$PROJECT_DIR$/MergekSortedLists.py" />
-        <option value="$PROJECT_DIR$/AsteroidCollision.py" />
-        <option value="$PROJECT_DIR$/IntersectionofTwoLinkedLists.py" />
-        <option value="$PROJECT_DIR$/DailyTemperature.py" />
-        <option value="$PROJECT_DIR$/ValidBinarySearchTree.py" />
-        <option value="$PROJECT_DIR$/TwoSum.py" />
-        <option value="$PROJECT_DIR$/AddTwoNumbers2.py" />
-        <option value="$PROJECT_DIR$/AddTwoNumbers.py" />
-        <option value="$PROJECT_DIR$/EditDistance.py" />
-        <option value="$PROJECT_DIR$/RansomNumber.py" />
-        <option value="$PROJECT_DIR$/WordLadder.py" />
-        <option value="$PROJECT_DIR$/FindFirstandLastPositionElement.py" />
-        <option value="$PROJECT_DIR$/ReverseWords.py" />
-        <option value="$PROJECT_DIR$/PerfectNumber.py" />
-        <option value="$PROJECT_DIR$/RotateImage.py" />
+        <option value="$PROJECT_DIR$/NextGreaterEle.py" />
+        <option value="$PROJECT_DIR$/MinimumCostTreeFromLeaf.py" />
+        <option value="$PROJECT_DIR$/Oracle/FindKPair.py" />
+        <option value="$PROJECT_DIR$/VMware/FloodFill.py" />
+        <option value="$PROJECT_DIR$/LeastBricks.py" />
+        <option value="$PROJECT_DIR$/Oracle/RemoveDupinList.py" />
+        <option value="$PROJECT_DIR$/ClosestPairofPoints.py" />
+        <option value="$PROJECT_DIR$/DoorDash/IntervalListIntersections.py" />
+        <option value="$PROJECT_DIR$/Pinterest/CandyCrush.py" />
         <option value="$PROJECT_DIR$/FindAllDuplicationsInAArray.py" />
-        <option value="$PROJECT_DIR$/Permutation.py" />
-        <option value="$PROJECT_DIR$/SortingListWith3UniqueNumbers.py" />
-        <option value="$PROJECT_DIR$/QueueUsingStack.py" />
-        <option value="$PROJECT_DIR$/QueueReconstructionByHeight.py" />
-        <option value="$PROJECT_DIR$/StackUsingQueue.py" />
-        <option value="$PROJECT_DIR$/FindNon-duplicateNumber.py" />
-        <option value="$PROJECT_DIR$/AbsolutePath.py" />
-        <option value="$PROJECT_DIR$/MaximumInStack.py" />
-        <option value="$PROJECT_DIR$/NumberofIslands.py" />
-        <option value="$PROJECT_DIR$/SlidingWindow.py" />
-        <option value="$PROJECT_DIR$/AmazonNewgrad.py" />
-        <option value="$PROJECT_DIR$/AddDigits.py" />
-        <option value="$PROJECT_DIR$/GroupAnagrams.py" />
-        <option value="$PROJECT_DIR$/SubArraysDivByK.py" />
-        <option value="$PROJECT_DIR$/VMWare.py" />
-        <option value="$PROJECT_DIR$/CountNumberOfTeams.py" />
-        <option value="$PROJECT_DIR$/MostVisitedSectorCircularTrack.py" />
-        <option value="$PROJECT_DIR$/CourseSchedule.py" />
-        <option value="$PROJECT_DIR$/FindPythagoreanTriplets.py" />
-        <option value="$PROJECT_DIR$/basic.py" />
-        <option value="$PROJECT_DIR$/PushDominos.py" />
-        <option value="$PROJECT_DIR$/Calculator.py" />
-        <option value="$PROJECT_DIR$/ProductofArrayExceptSelf.ipynb" />
-        <option value="$PROJECT_DIR$/ProductofArrayExceptSelf.py" />
-        <option value="$PROJECT_DIR$/NonDecreasingArray.py" />
-        <option value="$PROJECT_DIR$/NumPairsDivisibleBy60.py" />
-        <option value="$PROJECT_DIR$/lastSubString.py" />
-        <option value="$PROJECT_DIR$/Trie.py" />
-        <option value="$PROJECT_DIR$/WordSearch.py" />
-        <option value="$PROJECT_DIR$/PalindromeSubstrings.py" />
-        <option value="$PROJECT_DIR$/peekFind.py" />
+        <option value="$PROJECT_DIR$/Oracle/TraversalTree.py" />
+        <option value="$PROJECT_DIR$/Oracle/TreeLevelTraversal.py" />
+        <option value="$PROJECT_DIR$/Oracle/TreeFindNode.py" />
+        <option value="$PROJECT_DIR$/Oracle/WebCrawlThread.py" />
+        <option value="$PROJECT_DIR$/Oracle/PrintInOrder.py" />
+        <option value="$PROJECT_DIR$/Oracle/FrogJump.py" />
+        <option value="$PROJECT_DIR$/Oracle/KSmallestSortedMatrix.py" />
+        <option value="$PROJECT_DIR$/Oracle/WallsGates.py" />
+        <option value="$PROJECT_DIR$/Oracle/TrappingWater.py" />
+        <option value="$PROJECT_DIR$/Oracle/ConstructMaxBinaryTree.py" />
+        <option value="$PROJECT_DIR$/Oracle/PathSumTree.py" />
+        <option value="$PROJECT_DIR$/Oracle/MissingElement.py" />
+        <option value="$PROJECT_DIR$/Oracle/UniquePath.py" />
+        <option value="$PROJECT_DIR$/Oracle/DiameterBinaryTree.py" />
+        <option value="$PROJECT_DIR$/Oracle/HashMapDesign.py" />
+        <option value="$PROJECT_DIR$/Oracle/ShortestPalindrome.py" />
+        <option value="$PROJECT_DIR$/Oracle/IntegertoRoman.py" />
+        <option value="$PROJECT_DIR$/Oracle/SymmetricTree.py" />
+        <option value="$PROJECT_DIR$/Oracle/FlatternNestedIterator.py" />
+        <option value="$PROJECT_DIR$/Oracle/SpiralMatrix.py" />
+        <option value="$PROJECT_DIR$/Oracle/SearchRotatedArray.py" />
+        <option value="$PROJECT_DIR$/Oracle/LCA.py" />
+        <option value="$PROJECT_DIR$/VMware/RemoveNnodeFromListEnd.py" />
+        <option value="$PROJECT_DIR$/Sqrt.py" />
+        <option value="$PROJECT_DIR$/VMware/Pow.py" />
+        <option value="$PROJECT_DIR$/VMware/LRU.py" />
+        <option value="$PROJECT_DIR$/VMware/RemoveOuterParen.py" />
+        <option value="$PROJECT_DIR$/VMware/Search2DMatrix.py" />
+        <option value="$PROJECT_DIR$/VMware/Singleton.py" />
+        <option value="$PROJECT_DIR$/VMware/MultithreadFizzBuzz.py" />
+        <option value="$PROJECT_DIR$/VMware/TaskScheduler.py" />
+        <option value="$PROJECT_DIR$/VMware/DesignAutoCompleteSystem.py" />
+        <option value="$PROJECT_DIR$/OOD/MyCalendar.py" />
+        <option value="$PROJECT_DIR$/VMware/BoundaryBinaryTree.py" />
+        <option value="$PROJECT_DIR$/VMware/AutomationTest.py" />
+        <option value="$PROJECT_DIR$/VMware/InsertList.py" />
+        <option value="$PROJECT_DIR$/VMware/ReverseLinkList.py" />
+        <option value="$PROJECT_DIR$/VMware/AddTwoo.py" />
+        <option value="$PROJECT_DIR$/VMware/SortStringg.py" />
+        <option value="$PROJECT_DIR$/OOD/FileSystemInMemory.py" />
         <option value="$PROJECT_DIR$/TopKFrequentElements.py" />
-        <option value="$PROJECT_DIR$/Robinhood.py" />
       </list>
     </option>
   </component>
@@ -314,7 +591,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="-1920" />
     <option name="y" value="-48" />
     <option name="width" value="1920" />
@@ -354,6 +631,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -362,18 +640,36 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="OOD" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Oracle" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$USER_HOME$/opt/anaconda3/envs/pytorch/bin/python3.8" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="divmod&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="mergek&#9;null&#9;null&#10;mer&#9;FILE&#9;file:///Users/yuhanyin/leetcode/Pinterest/MergeIntervals.py&#10;sqrt&#9;null&#9;null&#10;iso&#9;null&#9;null&#10;stoc&#9;null&#9;null&#10;merg&#9;null&#9;null&#10;long&#9;FILE&#9;file:///Users/yuhanyin/leetcode/Pinterest/LongestIncreasingSubsequence.py&#10;word&#9;null&#9;null&#10;single&#9;null&#9;null&#10;topk&#9;FILE&#9;file:///Users/yuhanyin/leetcode/TopKFrequentElements.py&#10;Odd&#9;null&#9;null&#10;candy&#9;FILE&#9;file:///Users/yuhanyin/leetcode/Pinterest/CandyCrush.py&#10;cand&#9;null&#9;null&#10;random&#9;null&#9;null&#10;sum&#9;null&#9;null&#10;k&#9;null&#9;null&#10;interval&#9;null&#9;null&#10;divmod&#9;null&#9;null" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/VMware" />
+      <recent name="$PROJECT_DIR$/Oracle" />
+      <recent name="$PROJECT_DIR$/DoorDash" />
+      <recent name="$PROJECT_DIR$/OOD" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -387,8 +683,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Robinhood">
-    <configuration name="NumPairsDivisibleBy60" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests in BoundaryBinaryTree.py">
+    <configuration name="Singleton" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -401,12 +697,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="leetcode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NumPairsDivisibleBy60.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VMware/Singleton.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="Robinhood" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Sqrt" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -419,12 +715,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="leetcode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Robinhood.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VMware/Sqrt.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="TopKFrequentElements" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="TrappingWater" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -437,12 +733,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="leetcode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TopKFrequentElements.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Oracle/TrappingWater.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="WordSearch" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="TreeFindNode" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -455,10 +751,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="leetcode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WordSearch.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Oracle/TreeFindNode.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="Unittests in BoundaryBinaryTree.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/VMware" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="leetcode" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/VMware/BoundaryBinaryTree.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -478,38 +789,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="peekFind" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/local/Cellar/python/3.6.3/Frameworks/Python.framework/Versions/3.6/bin/python3.6" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="leetcode" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/peekFind.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.WordSearch" />
-      <item index="1" class="java.lang.String" itemvalue="Python.NumPairsDivisibleBy60" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Robinhood" />
-      <item index="3" class="java.lang.String" itemvalue="Python.peekFind" />
-      <item index="4" class="java.lang.String" itemvalue="Python.TopKFrequentElements" />
+      <item index="0" class="java.lang.String" itemvalue="Python.TreeFindNode" />
+      <item index="1" class="java.lang.String" itemvalue="Python.TrappingWater" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Sqrt" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Singleton" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in BoundaryBinaryTree.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Robinhood" />
-        <item index="1" class="java.lang.String" itemvalue="Python.TopKFrequentElements" />
-        <item index="2" class="java.lang.String" itemvalue="Python.peekFind" />
-        <item index="3" class="java.lang.String" itemvalue="Python.WordSearch" />
-        <item index="4" class="java.lang.String" itemvalue="Python.NumPairsDivisibleBy60" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in BoundaryBinaryTree.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Singleton" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Sqrt" />
+        <item index="3" class="java.lang.String" itemvalue="Python.TrappingWater" />
+        <item index="4" class="java.lang.String" itemvalue="Python.TreeFindNode" />
       </list>
     </recent_temporary>
   </component>
@@ -529,30 +822,65 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_BoundaryBinaryTree_py - 2020.10.23 at 11h 00m 10s.xml">
+      <configuration name="Unittests in BoundaryBinaryTree.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="-48" width="1920" height="1080" extended-state="0" />
+    <frame x="-1920" y="-48" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18690096" sideWeight="0.4946401" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15590864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15654951" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22974607" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3018868" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16134185" sideWeight="0.5053599" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4200596" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18867925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1799787" sideWeight="0.4946401" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50347567" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16134185" sideWeight="0.5053599" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -570,7 +898,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/MonotoneIncreasingDigits.py</url>
-          <line>4</line>
+          <line>16</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -625,7 +953,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/FindAllDuplicationsInAArray.py</url>
-          <line>41</line>
+          <line>49</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -680,17 +1008,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/WordSearch.py</url>
-          <line>24</line>
+          <line>37</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/WordSearch.py</url>
-          <line>36</line>
+          <line>49</line>
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/WordSearch.py</url>
-          <line>26</line>
+          <line>39</line>
           <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -700,17 +1028,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/WordSearch.py</url>
-          <line>157</line>
+          <line>170</line>
           <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/WordSearch.py</url>
-          <line>140</line>
+          <line>153</line>
           <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Robinhood.py</url>
-          <line>127</line>
+          <line>153</line>
           <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -725,38 +1053,338 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Robinhood.py</url>
-          <line>345</line>
+          <line>371</line>
           <option name="timeStamp" value="95" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Robinhood.py</url>
-          <line>354</line>
+          <line>380</line>
           <option name="timeStamp" value="96" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Robinhood.py</url>
-          <line>333</line>
+          <line>359</line>
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Robinhood.py</url>
-          <line>380</line>
+          <line>406</line>
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Robinhood.py</url>
-          <line>432</line>
+          <line>458</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Robinhood.py</url>
-          <line>419</line>
+          <line>445</line>
           <option name="timeStamp" value="103" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Robinhood.py</url>
-          <line>495</line>
+          <line>521</line>
           <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Robinhood.py</url>
+          <line>592</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Robinhood.py</url>
+          <line>637</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Robinhood.py</url>
+          <line>653</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Robinhood.py</url>
+          <line>660</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Robinhood.py</url>
+          <line>667</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Robinhood.py</url>
+          <line>652</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Robinhood.py</url>
+          <line>697</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Robinhood.py</url>
+          <line>695</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Robinhood.py</url>
+          <line>746</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Robinhood.py</url>
+          <line>747</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FindKLargestElementList.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/PinterestOA.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/LongestCommonHistory.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/LongestCommonHistory.py</url>
+          <line>152</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/FriendCircles.py</url>
+          <line>139</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/FriendCircles.py</url>
+          <line>293</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/TopologicalMid.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/TopologicalMid.py</url>
+          <line>260</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/TopologicalMid.py</url>
+          <line>190</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/TopologicalMid.py</url>
+          <line>176</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/Diagonal.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/Diagonal.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/Diagonal.py</url>
+          <line>100</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/Diagonal.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/Rectangle.py</url>
+          <line>231</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/WordLadder2.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/WordLadder2.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/WordLadder.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/WordLadder.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/WordLadder2.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/WordLadder2.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/WordLadder2.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/WordLadder2.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/WordLadder2.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/LongestIncreasingSubsequence.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RestoreNumberofCycle.py</url>
+          <line>93</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RestoreNumberofCycle.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/FriendCircles.py</url>
+          <line>364</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/LongestWordinDictionary.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/Backtracking.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/Backtracking.py</url>
+          <line>92</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/CalculatorVar.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/CalculatorVar.py</url>
+          <line>193</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/BlackList.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pinterest/LongestPalindrome.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DecodeString.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DecodeString.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/VMware/LFU.py</url>
+          <line>133</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/VMware/LFU.py</url>
+          <line>147</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/VMware/LFU.py</url>
+          <line>167</line>
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LongestRepeatedSubstring.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LongestRepeatedSubstring.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SlidingWindow.py</url>
+          <line>123</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SlidingWindow.py</url>
+          <line>107</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MinimumCostTickets.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ThrottlingGateway.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DoorDash/CountPickupDelivery.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/GridLand.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LargestRange.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Oracle/TrappingWater.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="208" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -766,406 +1394,401 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="106" />
+      <option name="time" value="210" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PerfectNumber.py">
+    <entry file="file://$PROJECT_DIR$/Oracle/SearchRotatedArray.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        <state relative-caret-position="360">
+          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RansomNumber.py">
+    <entry file="file://$PROJECT_DIR$/WordSearch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReverseWords.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FindDuplication.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        <state relative-caret-position="2010">
+          <caret line="134" column="17" lean-forward="false" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+    <entry file="file://$PROJECT_DIR$/Pinterest/LongestIncreasingSubsequence.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/QueueUsingStack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SortingListWith3UniqueNumbers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Permutation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="82" column="24" lean-forward="true" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+        <state relative-caret-position="1860">
+          <caret line="124" column="18" lean-forward="false" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/QueueReconstructionByHeight.py">
+    <entry file="file://$PROJECT_DIR$/DoorDash/Stock.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="48" column="49" lean-forward="true" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+        <state relative-caret-position="0">
+          <caret line="30" column="3" lean-forward="false" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StackUsingQueue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NumberofIslands.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SlidingWindow.py">
+    <entry file="file://$PROJECT_DIR$/IsomorphicStrings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TwoSum.py">
+    <entry file="file://$PROJECT_DIR$/Pinterest/CloneGraph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="72" column="11" lean-forward="false" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VMware/RemoveNnodeFromListEnd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VMware/Pow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VMware/LRU.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="94" column="24" lean-forward="true" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VMware/LFU.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="66" column="31" lean-forward="false" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="31" />
+          <folding>
+            <element signature="e#630#665#0" expanded="true" />
+            <element signature="e#1973#2031#1" expanded="false" />
+            <element signature="e#2222#2242#0" expanded="false" />
+            <element signature="e#2546#2630#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VMware/RemoveOuterParen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Oracle/CoinChange.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Oracle/FlatternNestedIterator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VMware/FloodFill.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Oracle/TrappingWater.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Oracle/TraversalTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Oracle/TreeFindNode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="119" column="3" lean-forward="true" selection-start-line="119" selection-start-column="3" selection-end-line="119" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Oracle/WebCrawlThread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Oracle/UniquePath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Oracle/ShortestPalindrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Oracle/HashMapDesign.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Oracle/SpiralMatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="71" lean-forward="false" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Oracle/WallsGates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOD/HitCount.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOD/GetRandom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOD/MyCalendar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2565">
+          <caret line="171" column="0" lean-forward="false" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOD/RandomPickWeight.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOD/DesignTwitter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Oracle/FindKPair.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOD/EncodeDecode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pinterest/MergeIntervals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VMware/BoundaryBinaryTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VMware/TaskScheduler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="84" lean-forward="true" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Oracle/PrintInOrder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DoorDash/MergeKSortedList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VMware/MultithreadFizzBuzz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VMware/SortStringg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VMware/InsertList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VMware/ReverseLinkList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VMware/LCA.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReverseLinkedList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AmazonNewgrad.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3009">
-          <caret line="201" column="13" lean-forward="true" selection-start-line="201" selection-start-column="13" selection-end-line="202" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FindNon-duplicateNumber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FindFirstandLastPositionElement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EditDistance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AddTwoNumbers.py">
+    <entry file="file://$PROJECT_DIR$/VMware/Singleton.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        <state relative-caret-position="285">
+          <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/Cellar/python3/3.6.3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/collections/__init__.py">
+    <entry file="file://$PROJECT_DIR$/VMware/Search2DMatrix.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7995">
-          <caret line="534" column="0" lean-forward="false" selection-start-line="534" selection-start-column="0" selection-end-line="534" selection-end-column="0" />
+        <state relative-caret-position="570">
+          <caret line="38" column="6" lean-forward="false" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AddDigits.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-          <folding>
-            <element signature="e#770#782#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MaximumInStack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GroupAnagrams.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#23#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SubArraysDivByK.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#33#56#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VMWare.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="116" column="14" lean-forward="false" selection-start-line="116" selection-start-column="14" selection-end-line="116" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MostVisitedSectorCircularTrack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-          <folding>
-            <element signature="e#480#511#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CourseSchedule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4095">
-          <caret line="274" column="8" lean-forward="false" selection-start-line="274" selection-start-column="8" selection-end-line="274" selection-end-column="8" />
-          <folding>
-            <element signature="e#577#600#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FindPythagoreanTriplets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PushDominos.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10935">
-          <caret line="766" column="0" lean-forward="false" selection-start-line="766" selection-start-column="0" selection-end-line="766" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/python3/3.6.3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3990">
-          <caret line="266" column="0" lean-forward="false" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Calculator.py">
+    <entry file="file://$PROJECT_DIR$/VMware/DesignAutoCompleteSystem.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <caret line="54" column="53" lean-forward="false" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProductofArrayExceptSelf.ipynb" />
-    <entry file="file://$PROJECT_DIR$/ProductofArrayExceptSelf.py">
+    <entry file="file://$PROJECT_DIR$/VMware/AutomationTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        <state relative-caret-position="510">
+          <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NonDecreasingArray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NumPairsDivisibleBy60.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="60" column="51" lean-forward="false" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lastSubString.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WordLadder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Trie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="42" lean-forward="false" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FindAllDuplicationsInAArray.py">
+    <entry file="file://$PROJECT_DIR$/VMware/Sqrt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordSearch.py">
+    <entry file="file://$PROJECT_DIR$/OOD/FileSystem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="157" column="28" lean-forward="true" selection-start-line="157" selection-start-column="28" selection-end-line="157" selection-end-column="28" />
+        <state relative-caret-position="570">
+          <caret line="38" column="36" lean-forward="false" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RotateImage.py">
+    <entry file="file://$PROJECT_DIR$/VMware/AddTwoo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/peekFind.py">
+    <entry file="file://$PROJECT_DIR$/OOD/FileSystemInMemory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="52" column="35" lean-forward="true" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+        <state relative-caret-position="165">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Oracle/KSmallestSortedMatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TopKFrequentElements.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1695">
-          <caret line="116" column="19" lean-forward="true" selection-start-line="135" selection-start-column="2" selection-end-line="143" selection-end-column="13" />
+        <state relative-caret-position="930">
+          <caret line="241" column="30" lean-forward="false" selection-start-line="241" selection-start-column="30" selection-end-line="241" selection-end-column="30" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PalindromeSubstrings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RemoveKDigits.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RemoveDuplicatesSortedList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CountNumberOfTeams.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-817">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbsolutePath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Robinhood.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="773">
-          <caret line="521" column="0" lean-forward="true" selection-start-line="521" selection-start-column="0" selection-end-line="521" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

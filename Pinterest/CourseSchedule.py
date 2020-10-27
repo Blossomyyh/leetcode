@@ -270,8 +270,8 @@ class Topological(object):
 
 
 
-
+######################
 """
-630. Course Schedule III
-
+half way of course path
+ 
 """

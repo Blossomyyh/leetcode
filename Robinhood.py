@@ -1,6 +1,30 @@
 from collections import Counter
 from collections import defaultdict
 
+
+
+#############
+def hashMap(queryType, query):
+    dic = {}
+    sumtotal = 0
+    keyadd = 0
+    valueadd = 0
+    for i, q in enumerate(queryType):
+        vals = query[i]
+        if q == "insert":
+            dic[vals[0]-keyadd] = vals[1]-valueadd
+        elif q == "addToValue":
+            valueadd += vals[0]
+            # print(dic)
+        elif q == "addToKey":
+            keyadd += vals[0]
+            # print(dic)
+        elif q == "get":
+            key = vals[0]- keyadd
+            if key not in dic: continue
+            sumtotal += dic[key]+valueadd
+    return sumtotal
+
 ##############
 # check ABC
 def checkABC(a, b, c):
@@ -38,6 +62,8 @@ def checkABC(a, b, c):
             # Move the left pointer ahead, this would help to look for a new window.
             l += 1
         r += 1
+
+
     return
 
 
@@ -233,12 +259,12 @@ class Solution(object):
         :type b: List[int]
         :rtype: int
         """
-        delta = [a[i] - a[i - 1] for i in xrange(1, len(a))]
-        smallest = reduce(gcd, delta)
+        delta = [a[i] - a[i - 1] for i in range(1, len(a))]
+        smallest = min(delta)
         if smallest == 1: return -1
         # in delta, determine if insertion from b make sense
         inserts = 0
-        for i in xrange(len(delta)):
+        for i in range(len(delta)):
             if delta[i] != smallest:  # when gcd is 3, but delta is 6 or 9
                 count = 1
                 while (a[i] + smallest * count) in b and smallest * count < delta[i]:
@@ -259,7 +285,7 @@ class Solution(object):
             postcount += 1
         inserts += postcount - 1
         return inserts + len(a)
-
+print(Solution().bFormArithSeqLength([4, 8, 20], [0, 5, 7, 12, 20, 16, 28]))
 #######################
 """
 subdivisor:
@@ -512,13 +538,259 @@ def windowFrame(n):
         else:
             print(middle)
     return
-print(windowFrame(4))
+# print(windowFrame(4))
 
 
 ########################
 """
  remove exact one digit char from string s or t, so that s < t;
+ 
 input: String s1,s2 (lower case letters and digits) output: number of ways to remove the digit char.
+compare length
+if s1==0 s2; s2==0;s1==0, s1
+ if(s1 == null && s2 == null) {             return 0;         }         
+ if(s1 == null) {             return s2.length();         }         
+ if(s2 == null) {             return 0;         }         
+ if(s1.length() == 0 && s2.length() == 0) {             return 0;         }         
+ if(s1.length() == 0) {             return s2.length();         } 
+ else if(s2.length() == 0) {             return 0;         } 
+ 
+if s1>s2+1 --0
+if s1== s2 --lens1
+if s1+1== s2 -- go through & check
+"""
+def removeOne(s, t):
+    if len(s) ==0:
+        return 0
+    if len(t) == 0:
+        return 0
+    if len(s) == len(t):
+        if int(s)<int(t):
+            return 0
+        return len(s)
+    result = 0
+    if len(s) == len(t)+1:
+        for i in range(len(s)):
+            sub = s[0:i] + s[i+1:]
+            if int(sub)<int(t):
+                result += 1
+    return result
+# print(removeOne("hello", "world"))
+
+
+######################
+"""
+maxRibbon
+
+"""
+def maxRibbon(array, k):
+    result = 0
+    size = k
+    while size >0:
+        res = 0
+        for i in array:
+            res += i // size
+        if res >= k:
+            result = max(result, size)
+        size -= 1
+    return result
+# print(maxRibbon([1,2,3,4,9], 5))
+
+
+#################
+"""
+zig zag 
+
+go a single path 1 - len-2
+to compare whether we have left>m<right or left<m>right -- 1, else --- 0
+"""
+def zigzag(numbers):
+    if len(numbers) < 3: return []
+    result = []
+    for i in range(1, len(numbers)-1):
+        if numbers[i-1]<numbers[i] and numbers[i+1]< numbers[i]:
+            result.append(1)
+        elif numbers[i-1]>numbers[i] and numbers[i+1]> numbers[i]:
+            result.append(1)
+        else:
+            result.append(0)
+    return result
+# print(zigzag([1,2,1,3,4]))
+
+"""
+match vowels
+
+set of vowels others are all consonant
+"""
+def character(ch):
+    vowels = set(['a', 'e', 'i', 'o','u'])
+    if ch in vowels:
+        return "1"
+    else:
+        return "0"
+
+def matchVowels(pattern, s):
+    if len(s)<len(pattern): return 0
+    res = 0
+    for i in range(len(s)-len(pattern)+1):
+        substring = ""
+        for j in range(len(pattern)):
+            substring +=character(s[i+j])
+        if substring == pattern:
+            res += 1
+    return res
+# print(matchVowels("010", "amazing"))
+
+from collections import deque
+def sortMatrix(matrix):
+    length = len(matrix)
+    occurrence = {}
+    for i in range(length):
+        for j in range(length):
+            occurrence[matrix[i][j]] = occurrence.get(matrix[i][j], 0) + 1
+
+    stack = [item for item in occurrence.items()]
+    stack.sort(key=lambda x:(x[1], x[0]))
+    sortedList = deque()
+    while stack:
+        num, occur = stack.pop()
+        while occur:
+            sortedList.append(num)
+            occur -= 1
+    # horizontally
+    for j in range(length):
+        temp = j
+        i = 0
+        while 0<=i<=j and 0<=temp<=j:
+            matrix[i][temp] = sortedList.popleft()
+            i += 1
+            temp -= 1
+    for i in range(1, length):
+        temp = i
+        j = length - i
+        while j>=i:
+            matrix[temp][j] = sortedList.popleft()
+            j -= 1
+            temp += 1
+    return matrix
+# print(sortMatrix([[2,3,4,5],[1,6,7,8],[12,13,14,15],[9,10,11,0]]))
+
+"""
+compare frequency
+"""
+def compareFre(a, b):
+    counta = Counter(a)
+    countb = Counter(b)
+    """
+    \\\\use for to load values !!!!!!
+    
+    """
+    arr1 = [str(v) for v in counta.values()]
+    arr2 = [str(v) for v in countb.values()]
+    arr1.sort()
+    arr2.sort()
+    """ 
+    \\\\join should used on string list !!!!! not int !!!!!!
+    
+    """
+    all1 = "".join(arr1)
+    all2 = "".join(arr2)
+    if  all1== all2:
+        return True
+    return False
+# print(compareFre("abbcdea", "ebbccaa"))
+
 
 
 """
+most frequency
+
+// using hashmap and max count
+
+"""
+def mostFre(a):
+    dic = {}
+    maxCount = 0
+    res = []
+    for i in a:
+        dic[i] = dic.get(i, 0) +1
+        maxCount = max(dic[i], maxCount)
+    for i in dic:
+        if dic[i] == maxCount:
+            res.append(i)
+    return res
+# print(mostFre([2,2,3,3,5]))
+
+"""
+good tuple
+
+// using hashmap and set with window size 3, check if the set size is 2 or not
+"""
+def goodTuple(a):
+    res = 0
+    if len(a)<3: return 0
+    for i in range(len(a)-2):
+        setm = set(a[i:i+3])
+        if len(setm) == 2:
+            res += 1
+    return res
+print(goodTuple([1,1,2,1,5,3,2,3]))
+
+
+"""
+broken keyboard
+"""
+def brokenKeyboard(a, b):
+    setB = set(b)
+    words = a.split(' ')
+    res = 0
+    for word in words:
+        if len(word) != 0:
+            b = True
+            for i in word:
+                if i.isalpha() and i.lower() not in setB:
+                    b = False
+                    break
+            if b:
+                res +=1
+    return res
+print(brokenKeyboard( "Hello, my dear friend!",  ['h', 'e', 'l', 'o', 'm'] ))
+
+"""
+query
+"""
+dic = {1:2, 3:2}
+setm = set(dic.keys())
+print(setm)
+
+
+def rotateAndFall(box):
+    n = len(box)
+    m = len(box[0])
+    print(n, m)
+    result = [['.'] * n for _ in range(m)]
+    print(result)
+    for i in range(n):
+        line = box[i]
+        num = 0
+        for j in range(m):
+            if line[j] == '#':
+                num += 1
+            elif line[j] == '.':
+                continue
+            elif line[j] == '*':
+                if num == 0:
+                    result[j][n - i - 1] = '*'
+                elif num > 0:
+                    result[j][n - i - 1] = '*'
+                    for x in range(num):
+                        print(x, n - i)
+                        result[j - x - 1][n - i - 1] = '#'
+                num = 0
+        print(num)
+        if num > 0:
+            for x in range(num):
+                print(m - x - 1, n - i)
+                result[m - x - 1][n - i - 1] = '#'
+
+    return result

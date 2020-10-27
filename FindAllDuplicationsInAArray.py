@@ -36,6 +36,14 @@ class Solution(object):
                 i += 1
         return output
 
+
+    """ 
+    , 1 ≤ a[i] ≤ n (n = size of array),  
+    
+    time O(n) space O(1)
+    """
+
+    # Find all the elements that appear twice
     def findDuplication(self, nums):
         outputs = []
         for n in nums:

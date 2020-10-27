@@ -26,8 +26,8 @@ class Solution(object):
         for num, fre in counter.items():
             heap.append((-fre, num))
         heapq.heapify(heap)
-
-        res  = []
+        print(heap)
+        res = []
         for i in range(k):
             res.append(heapq.heappop(heap)[1])
         return res
@@ -90,10 +90,90 @@ class Solution(object):
         # [('leetcode', 1), ('coding', 1), ('love', 2), ('i', 2)]
         return [word for word, count in dlist[:k]]
 
-print(Solution().topKFrequentwithHeap([1,1,1,2,2,3], 2))
+word = ['pinterest', 'pinterest', 'pinterest','apple', 'apple', 'apple', 'abs']
+print(Solution().topKFrequentwithHeap(word, 3))
+
+
+"""quicksort"""
+def topkquick(nums, k):
+    def partition(left, right, pivot):
+        l, r = left, right
+        pivotfre = count[unique[pivot]]
+
+        # 2. move all less frequent elements to the left
+
+        while l<r:
+            while l<r and count[unique[l]]<pivotfre:
+                l+=1
+            while l<r and count[unique[r]]>pivotfre:
+                r-=1
+            unique[l], unique[r] = unique[r], unique[l]
+
+        # 3. move pivot to its final place
+        unique[pivot], unique[r] = unique[r], unique[pivot]
+        return r
 
 
 
+    def quickselect(left, right, ksmall):
+        """
+                    Sort a list within left..right till kth less frequent element
+                    takes its place.
+        """
+        if left==right:
+            return
+        pivot = left
+
+        # find the pivot position in a sorted list
+        pidx = partition(left, right, pivot)
+
+        if ksmall ==pidx:
+            return
+        elif ksmall<pidx:
+            quickselect(left, pidx-1, ksmall)
+        elif ksmall>pidx:
+            quickselect(pidx+1, right, ksmall)
+
+
+    count = Counter(nums)
+    unique = list(count.keys())
+    # make sure pivot is \\ n-k
+    quickselect(0, len(unique)-1, len(unique)-k)
+    return unique[len(unique)-k:]
+
+"""another version of quicksort"""
+
+
+def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+    def quick_select(left, right):
+        pivot = left
+        l, r = left, right
+        while l < r:
+            while l < r and counts[r][1] <= counts[pivot][1]:
+                r -= 1
+            while l < r and counts[l][1] >= counts[pivot][1]:
+                l += 1
+            counts[l], counts[r] = counts[r], counts[l]
+        counts[left], counts[l] = counts[l], counts[left]
+
+        if l + 1 == k:
+            return counts[:l + 1]
+        elif l + 1 < k:
+            return quick_select(l + 1, right)
+        else:
+            return quick_select(left, l - 1)
+
+    if not nums:
+        return []
+
+    # Get the counts.
+    counts = {}
+    for x in nums:
+        counts[x] = counts.setdefault(x, 0) + 1
+
+    counts = counts.items()
+    # Use quick select to get the top k counts.
+    return [c[0] for c in quick_select(0, len(counts) - 1)]
 
 
 """subtree"""
@@ -117,7 +197,7 @@ def dfs(node, cache):
 def solution(node):
     import collections
     cache = collections.defaultdict(list)
-    dfs(n, cache)
+    dfs(node, cache)
 
     maxx = float('-inf')
     result = None
@@ -142,3 +222,21 @@ def solution(node):
 # n.childs = [n12, n18]
 #
 # solution(n)
+
+
+import heapq
+
+def findKthLargest(nums,k):
+  if not nums:
+    return None
+  if k > len(nums) or k<1:
+     print("K is invalid.")
+     return None
+  h = []
+  for i in range(len(nums)):
+    if i<= k-1:
+      heapq.heappush(h,-nums[i])
+    else:
+      heapq.heappush(h,-nums[i])
+      heapq.heappop(h)
+  return heapq.heappop(h)*(-1)

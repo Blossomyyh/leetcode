@@ -13,7 +13,20 @@ when we find the first character in word is (i, j) in board
         for each direction we do 
             dfs(newi, newj, board, visited)
             
-    :return False    
+    :return False  
+    
+    
+Time Complexity: {O}(N * 3 ^ L)
+L
+ ) where NN is the number of cells in the board and LL is the length of the word to be matched.
+For the backtracking function, 
+initially we could have at most 4 directions to explore, 
+but further the choices are reduced into 3
+ (since we won't go back to where we come from). 
+ 
+ 
+ Space Complexity:O(L) 
+ where LL is the length of the word to be matched
 """
 
 

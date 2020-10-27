@@ -8,4 +8,5 @@
 class Solution:
     def countSubstrings(self, s: str) -> int:
         for i in range(len(s)):
-            while j
+            # while j
+        pass
