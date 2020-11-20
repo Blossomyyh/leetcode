@@ -25,56 +25,21 @@ while queue :
 
 """
 from collections import deque
-def knight(x, y):
-    if (x, y) == (0, 0): return 0
 
-    def bfs(i, j, x, y):
-        open_list = [(i, j, 0)]
-        seen = {(i, j)}
-        for i, j, d in open_list:
-            for di, dj in [(1, 2), (2, 1), (1, -2), (2, -1),
-                           (-1, 2), (-2, 1), (-1, -2), (-2, -1)]:
-                r, c = i + di, j + dj
-                if (r, c) not in seen and r > -4 and c > -4:
-                    if (r, c) == (x, y): return d + 1
-                    seen.add((r, c))
-                    open_list.append((r, c, d + 1))
+def minKnightMoves( x: int, y: int) -> int:
+    if x == 0 and y == 0: return 0
+    visited = set()
+    visited.add((0, 0))
+    queue = deque([(0, 0, 0)])
 
-    return bfs(0, 0, abs(x), abs(y))
-print(knight(5,5))
-# 4
-
-
-
-import collections
-
-class Solution(object):
-    def minKnightMoves(self, x:int, y:int):
-        x, y = abs(x), abs(y)
-        res = 0
-        """
-        optimization:
-            best way to approach x,y
-            go as far as we can 
-            x>y go+(2,1)
-            else (1,2)
-        """
-
-        while x > 4 or y > 4:
-            res += 1
-            if x >= y:
-                x -= 2
-                y -= 1 if y >= 1 else -1
-            else:
-                x -= 1 if x >= 1 else -1
-                y -= 2
-        # bfs
-        moves = ((2, 1), (1, 2), (-1, 2), (-2, 1), (-2, -1), (-1, -2), (1, -2), (2, -1))
-        queue = collections.deque([(0, 0, 0)])
-        while queue:
-            i, j, steps = queue.popleft()
-            if i == x and j == y:
-                return res + steps
-            for di, dj in moves:
-                if (x - i) * di > 0 or (y - j) * dj > 0: # move towards (x, y) at least in one direction
-                    queue.append((i + di, j + dj, steps + 1))
+    while queue:
+        curx, cury, step = queue.popleft()
+        if curx == x and cury == y:
+            return step
+        for i, j in [(2, 1), (1, 2), (2, -1), (-1, 2), (1, -2), (-2, 1), (-1, -2), (-2, -1)]:
+            nx = i + curx
+            ny = j + cury
+            if (nx, ny) not in visited:
+                queue.append((nx, ny, step + 1))
+                visited.add((nx, ny))
+    return -1

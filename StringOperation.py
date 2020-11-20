@@ -23,6 +23,11 @@ Returns a Match object if there is a match anywhere in the string
 # sub # - replace
 Replaces one or many matches with a string
 
+
+# full match # re.fullmatch(patter, string, flag)
+    pattern = "(" + str1[0:div] + ")+"
+    if re.fullmatch(pattern, str1
+
 """
 
 import re

@@ -10,18 +10,21 @@ import heapq
 from typing import List
 from collections import defaultdict
 from collections import Counter
+
 """
 If two words have the same frequency, then the word with the
  lower alphabetical order comes first.
 """
+
+
 class Solution(object):
     """not only sorted by frequency but also the alphbetically of the words"""
 
     def topKFrequentwithHeap(self, nums, k):
         counter = defaultdict(int)
         for n in nums:
-            counter[n] = counter.get(n, 0) +1
-    #     heap to get top k --> max k
+            counter[n] = counter.get(n, 0) + 1
+            #     heap to get top k --> max k
         heap = []
         for num, fre in counter.items():
             heap.append((-fre, num))
@@ -32,8 +35,6 @@ class Solution(object):
             res.append(heapq.heappop(heap)[1])
         return res
 
-
-
     def topK(self, nums, k):
         dic = {}
         for num in nums:
@@ -42,7 +43,7 @@ class Solution(object):
             else:
                 dic[num] = 1
         dlist = list(dic.items())
-        dlist.sort(key=lambda x: -x[0], reverse= True)
+        dlist.sort(key=lambda x: -x[0], reverse=True)
         return heapq.nlargest(k, dic, key=dic.get)
 
     def topKFrequent(self, words: List[str], k: int) -> List[str]:
@@ -55,8 +56,9 @@ class Solution(object):
         return [heapq.heappop(heap)[1] for _ in range(k)]
 
 
-    # You may assume k is always valid, 1 ≤ k ≤ number of unique elements.
-# Input words contain only lowercase letters.
+        # You may assume k is always valid, 1 ≤ k ≤ number of unique elements.
+
+    # Input words contain only lowercase letters.
     def topKFrequent(self, words: List[str], k: int) -> List[str]:
         d = {}
         for x in words:
@@ -90,11 +92,13 @@ class Solution(object):
         # [('leetcode', 1), ('coding', 1), ('love', 2), ('i', 2)]
         return [word for word, count in dlist[:k]]
 
-word = ['pinterest', 'pinterest', 'pinterest','apple', 'apple', 'apple', 'abs']
+
+word = ['pinterest', 'pinterest', 'pinterest', 'apple', 'apple', 'apple', 'abs']
 print(Solution().topKFrequentwithHeap(word, 3))
 
-
 """quicksort"""
+
+
 def topkquick(nums, k):
     def partition(left, right, pivot):
         l, r = left, right
@@ -102,44 +106,42 @@ def topkquick(nums, k):
 
         # 2. move all less frequent elements to the left
 
-        while l<r:
-            while l<r and count[unique[l]]<pivotfre:
-                l+=1
-            while l<r and count[unique[r]]>pivotfre:
-                r-=1
+        while l < r:
+            while l < r and count[unique[l]] < pivotfre:
+                l += 1
+            while l < r and count[unique[r]] > pivotfre:
+                r -= 1
             unique[l], unique[r] = unique[r], unique[l]
 
         # 3. move pivot to its final place
         unique[pivot], unique[r] = unique[r], unique[pivot]
         return r
 
-
-
     def quickselect(left, right, ksmall):
         """
                     Sort a list within left..right till kth less frequent element
                     takes its place.
         """
-        if left==right:
+        if left == right:
             return
         pivot = left
 
         # find the pivot position in a sorted list
         pidx = partition(left, right, pivot)
 
-        if ksmall ==pidx:
+        if ksmall == pidx:
             return
-        elif ksmall<pidx:
-            quickselect(left, pidx-1, ksmall)
-        elif ksmall>pidx:
-            quickselect(pidx+1, right, ksmall)
-
+        elif ksmall < pidx:
+            quickselect(left, pidx - 1, ksmall)
+        elif ksmall > pidx:
+            quickselect(pidx + 1, right, ksmall)
 
     count = Counter(nums)
     unique = list(count.keys())
     # make sure pivot is \\ n-k
-    quickselect(0, len(unique)-1, len(unique)-k)
-    return unique[len(unique)-k:]
+    quickselect(0, len(unique) - 1, len(unique) - k)
+    return unique[len(unique) - k:]
+
 
 """another version of quicksort"""
 
@@ -177,6 +179,8 @@ def topKFrequent(self, nums: List[int], k: int) -> List[int]:
 
 
 """subtree"""
+
+
 class Node:
     def __init__(self, val=None):
         self.val = val
@@ -224,19 +228,17 @@ def solution(node):
 # solution(n)
 
 
-import heapq
-
-def findKthLargest(nums,k):
-  if not nums:
-    return None
-  if k > len(nums) or k<1:
-     print("K is invalid.")
-     return None
-  h = []
-  for i in range(len(nums)):
-    if i<= k-1:
-      heapq.heappush(h,-nums[i])
-    else:
-      heapq.heappush(h,-nums[i])
-      heapq.heappop(h)
-  return heapq.heappop(h)*(-1)
+def findKthLargest(nums, k):
+    if not nums:
+        return None
+    if k > len(nums) or k < 1:
+        print("K is invalid.")
+        return None
+    h = []
+    for i in range(len(nums)):
+        if i <= k - 1:
+            heapq.heappush(h, -nums[i])
+        else:
+            heapq.heappush(h, -nums[i])
+            heapq.heappop(h)
+    return heapq.heappop(h) * (-1)

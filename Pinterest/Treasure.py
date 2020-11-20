@@ -150,7 +150,6 @@ def treasure3(matrix, start_x, start_y, end_x, end_y):
 
 #     BFS
     queue = deque()
-    visited  = set()
     if matrix[start_x][start_y] == 1:
         queue.append(([(start_x, start_y)], 1))
     else:
@@ -167,16 +166,12 @@ def treasure3(matrix, start_x, start_y, end_x, end_y):
                 return True
             else:
                 continue
-        visited.add((curi, curj))
         for i, j in [(-1, 0), (1, 0), (0, 1), (0, -1)]:
-
-            if isValid(i + curi, j + curj) and (i + curi, j + curj) not in visited:
+            if isValid(i + curi, j + curj) and (i + curi, j + curj) not in path:
                 if matrix[i + curi][j + curj] == 0:
-                    queue.append((path + [i + curi, j + curj], curT))
-                    print(i + curi, j + curj, curT)
+                    queue.append((path + [(i + curi, j + curj)], curT))
                 elif matrix[i + curi][j + curj] == 1:
-                    print(i + curi, j + curj, curT+1)
-                    queue.append((path +[i + curi, j + curj], curT +1))
+                    queue.append((path +[(i + curi, j + curj)], curT +1))
     return False
 
 print(treasure3(test3, 5, 0, 0, 2))

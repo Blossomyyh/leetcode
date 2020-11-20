@@ -32,7 +32,7 @@ from collections import deque
 class Solution:
 
     def __init__(self):
-        self.visited = set()
+        self.visited = {}
     def copyDFS(self, node: Node):
         if not node: return node
 

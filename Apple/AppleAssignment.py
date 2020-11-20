@@ -14,6 +14,11 @@ Assumptions:
 Solution:
 1. check and modify input (invalid input will return -1)
 2. use BFS to find shortest path
+
+Time Complexity: O(n ^ 2)
+    traversal the whole arr matrix
+Space Complexity:  O(n ^ 2)
+    use queue for traversal
 """
 
 from collections import deque

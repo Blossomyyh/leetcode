@@ -18,6 +18,8 @@ def subdomainVisits(cpdomains: List[str]) -> List[str]:
         domain = splitString[1]
         subdomain = domain.split('.')
         for i in range(len(subdomain)):
+
+            """start from [i:] then we can get the right subdomains"""
             key = ".".join(subdomain[i:])
             dictionary[key] = dictionary.get(key, 0) + count
 
@@ -66,11 +68,13 @@ def clicker_counter(clicker):
 def parser_(s):
     res = []
     s = s[0].split('.')[::-1]
+    print(s)
     for string in s:
         if not res:
             res.append(string)
         else:
             res.append("{}.{}".format(string, res[-1]))
+    print(res)
     return res
 
 def clicker_counter_(clicker):
@@ -89,11 +93,65 @@ test1 = [
     ["sports.yahoo.com", "80"]
 ]
 
-print(clicker_counter(test1))
+# print(clicker_counter(test1))
 print(clicker_counter_(test1))
 
 
 
 #############
 # domain 3
+# 给了三个list，第一个是purchase的userid list,
+# 第二个是广告click记录，每一条是[ IP address, AD],
+# 第三个是userid, IP对照表，
+# 然后问对每条ad来说，# of purchase/ # of click。
+# 还有些别的假设：每个用户只有一次purchase，每个用户只有一个ip
 
+
+
+###3
+completed_purchase_user_ids = [
+    "3123122444", "234111110", "8321125440", "99911063"]
+
+ad_clicks = [
+    ##userID, time, product
+    "122.121.0.1,2016-11-03 11:41:19,Buy wool coats for your pets",
+    "96.3.199.11,2016-10-15 20:18:31,2017 Pet Mittens",
+    "122.121.0.250,2016-11-01 06:13:13,The Best Hollywood Coats",
+    "82.1.106.8,2016-11-12 23:05:14,Buy wool coats for your pets",
+    "92.130.6.144,2017-01-01 03:18:55,Buy wool coats for your pets",
+    "92.130.6.145,2017-01-01 03:18:55,2017 Pet Mittens",
+]
+
+all_user_ips = [
+    ##"User_ID,IP_Address",
+    "2339985511,122.121.0.250",
+    "234111110,122.121.0.1",
+    "3123122444,92.130.6.145",
+    "39471289472,96.3.199.11",
+    "8321125440,82.1.106.8",
+    "99911063,92.130.6.144"
+]
+
+
+##dic1 =  {ipAddress:userID}
+##dic2 = {product:[totalClickTimes, purchasedTime]}
+
+def task3(completed_purchase_user_ids, ad_clicks, all_user_ips):
+    ipToId = {}
+    productInfo = {}
+    completed_purchase_user_ids = set(completed_purchase_user_ids)
+    for info in all_user_ips:
+        userId, ip = info.split(",")
+        ipToId[ip] = userId
+    for info in ad_clicks:
+        ip, _, product = info.split(",")
+        if product not in productInfo:
+            productInfo[product] = [0, 0]
+        productInfo[product][0] += 1
+        if ipToId[ip] in completed_purchase_user_ids:
+            productInfo[product][1] += 1
+    return productInfo
+
+# {'Buy wool coats for your pets': [3, 3], '2017 Pet Mittens': [2, 1], 'The Best Hollywood Coats': [1, 0]}
+# {product:[totalClickTimes, purchasedTime]}
+print(task3(completed_purchase_user_ids, ad_clicks, all_user_ips))

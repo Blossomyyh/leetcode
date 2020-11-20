@@ -8,9 +8,9 @@ def meeting_room(meetings, new_meeting):
 
     return True
 
-
 test1 = [[1300, 1500], [930, 1200], [830, 845], [840, 855]]
 new1 = [1450, 1500]
+
 
 print(meeting_room(test1, new1))
 
@@ -85,18 +85,49 @@ class Solution:
             print(free_rooms)
         # The size of the heap tells us the minimum rooms required for all the meetings.
         return len(free_rooms)
+"""
+# PUT MEETING END TIME IN HEAP --> MIN END TIME POP OUT"
+heap length is length of meeting rooms
+"""
+import heapq
 
-    import heapq
-    class Solution:
-        def minMeetingRooms(self, intervals) -> int:
-            if not intervals: return 0
-            heap = []
-            intervals.sort(key=lambda x: x[0])
-            # only append end time
-            heapq.heappush(heap, intervals[0][1])
-            for i in range(1, len(intervals)):
-                if intervals[i][0] >= heap[0]:
-                    heapq.heappop(heap)
-                heapq.heappush(heap, intervals[i][1])
 
-            return len(heap)
+class Solution:
+    def minMeetingRooms(self, intervals) -> int:
+        if not intervals: return 0
+        heap = []
+        intervals.sort(key=lambda x: x[0])
+        # only append end time
+        heapq.heappush(heap, intervals[0][1])
+        for i in range(1, len(intervals)):
+            if intervals[i][0] >= heap[0]:
+                heapq.heappop(heap)
+            heapq.heappush(heap, intervals[i][1])
+
+        return len(heap)
+
+
+"""
+1229. Meeting Scheduler
+"""
+slots1 = [[10,50],[60,120],[140,210]]
+slots2 = [[0,15],[60,70]]
+duration = 8
+from typing import List
+
+def minAvailableDuration(slots1: List[List[int]], slots2: List[List[int]], duration: int) -> List[int]:
+    slots1.sort(key=lambda x: x[0])
+    slots2.sort(key=lambda x: x[0])
+    i, j = 0, 0
+    while i<len(slots1) and j< len(slots2):
+        head = max(slots1[i][0], slots2[j][0])
+        tail = min(slots1[i][1], slots2[j][1])
+        if head + duration<=tail:
+            return [head, head+duration]
+
+        if slots1[i][1] < slots2[j][1]:
+            i+= 1
+        else:
+            j+=1
+    return []
+print(minAvailableDuration(slots1, slots2, duration))

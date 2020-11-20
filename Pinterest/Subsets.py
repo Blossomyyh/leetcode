@@ -181,6 +181,7 @@ class Solution:
         def dfs(idx, path):
             result.append(path)
             for i in range(idx, len(nums)):
+                """ i > idx take care """
                 if i > idx and nums[i] == nums[i - 1]:
                     continue
                 dfs(i + 1, path + [nums[i]])

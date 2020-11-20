@@ -53,9 +53,12 @@ class Solution:
     def recursive(self, node, cur, path):
         if not node:
             return
+        """ check whether is leaf node"""
         if cur == 0 and not node.left and not node.right:
             self.res.append(path)
             return
+        """ no need to add cur<sum...  -- may have negative nums"""
+        """ only need to append Val in list!! """
         if node.left:
             self.recursive(node.left, cur - node.left.val, path + [node.left.val])
         if node.right:
@@ -67,5 +70,64 @@ class Solution:
         # make sure node is a leaf
 
         self.res = []
+
         self.recursive(root, sum - root.val, [root.val])
         return self.res
+
+
+"""  
+437. Path Sum III
+
+use preorder to traversal tree 
+use dictionary to record sum and counts
+\\ Prefix Sum
+    === Number of Continuous Subarrays that Sum to Target
+\\ preorder traversal
+    need dic[cur] -= 1 to prevent parallel
+
+
+"""
+from collections import defaultdict
+
+
+class Solution:
+    def pathSum(self, root, target):
+        dic = {0: 1}
+        self.count = 0
+
+        def dfs(node, sums):
+            if not node:
+                return
+            cur = sums + node.val
+            if cur - target in dic:
+                self.count += dic[cur - target]
+
+            dic[cur] = dic.get(cur, 0) + 1
+
+            dfs(node.left, cur)
+            dfs(node.right, cur)
+
+            # remove the current sum from the hashmap
+            # in order not to use it during
+            # the parallel subtree processing
+            dic[cur] -= 1
+
+        dfs(root, 0)
+        return self.count
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

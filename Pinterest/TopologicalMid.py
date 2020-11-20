@@ -151,7 +151,7 @@ print(topologicalCom(['bca', 'be', 'ec']))
 ###############
 3. Get all the path topologicallly
 
-DFS traversal
+DFS traversal 
 """
 def topologicalCom(test):
 

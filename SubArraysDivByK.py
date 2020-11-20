@@ -39,8 +39,12 @@ class Solution(object):
 
 Solution().subarraysDivByK([4,5,0,-2,-3,1], 5)
 """
+560. Subarray Sum Equals K
 Given an array of integers and an integer k, 
 you need to find the total number of continuous subarrays whose sum equals to k.
+
+# sum1%k=1 sum2%k=1 -> [sum2-sum1]%k==0
+# count the same remain of the subarray sumup
 """
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:

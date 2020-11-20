@@ -1,4 +1,13 @@
+"""
+Combination Sum
 
+Time : O(N^(T/M))
+T: target sum
+M: minimum value
+DFS in a n-ary tree --> T/M + 1 will be the deepest depth in the tree
+Space: O(T/M)
+
+"""
 candidates = [10,1,2,7,6,1,5]
 def combinationSum2(candidates, target: int):
     candidates.sort()

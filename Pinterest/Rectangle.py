@@ -89,7 +89,7 @@ traversal the matrix and find first 1:
     then go down find i -- check with 1
     store start and end
     refill this rectangle with -1
-time/space
+time/space 
 """
 def rectangleTwo(matrix):
     row = len(matrix)
